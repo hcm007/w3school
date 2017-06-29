@@ -24,6 +24,43 @@ PHP automatically converts the variable to the correct data type, depending on i
 * global
 * static
 
+## PHP Global Variables - superglobals
+They are always accessible, regardless of scope
+### The PHP superglobal variables are:
+* $GLOBALS
+* $_SERVER
+* $_REQUEST
+* $_POST
+* $_GET
+* $_FILES
+* $_ENV
+* $_COOKIE
+* $_SESSION
+
+## Diff between GET and POST
+* Information sent from a form with the GET method is visible to everyone GET also has limits on the amount of 
+information to send. because the variable are displayed in the URL, it is possible to bookmark the page
+* invisible to others and has no limits on the amount of informatin to send
+
+## Form Validation
+![alt text](info.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
